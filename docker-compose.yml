@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   dlna-server:        
-    image: "local:dlna"
+    image: "carlosgc21/ubuntu-dlna:v1"
     network_mode: "host"
     volumes:
       - "./media:/home/mini"

@@ -10,7 +10,8 @@ Este repositorio muestra como montar un servicio multimedia de DLNA usando minid
 git clone https://github.com/cgonzalezc21/ubuntu-dlna.git
 ```
 
-2. Crea la imagen del directorio `dlna-image`
+2. Modifica y crea la imagen del directorio `dlna-image` (opcional). Puedes usar la del docker-hub `carlosgc21/ubuntu-dlna:v1`.
+En este caso, puedes pasar al siguiente paso. 
 
 ```bash
 sudo docker build -t local:dlna .
